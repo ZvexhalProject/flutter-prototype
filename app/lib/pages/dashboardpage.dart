@@ -1,3 +1,6 @@
+import 'package:app/pages/productform.dart';
+import 'package:app/pages/productlist.dart';
+import 'package:app/pages/scanpage.dart';
 import 'package:flutter/material.dart';
 
 class DashboardPage extends StatefulWidget {
@@ -67,7 +70,13 @@ class _DashboardPageState extends State<DashboardPage> {
                                 ),
                               ),
                               color: Color(0xff3880ff),
-                              onPressed: () {},
+                              onPressed: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => FormPage()),
+                                );
+                              },
                             ),
                           ),
                           Container(
@@ -85,7 +94,13 @@ class _DashboardPageState extends State<DashboardPage> {
                                 ),
                               ),
                               color: Color(0xff3dc2ff),
-                              onPressed: () {},
+                              onPressed: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => ListPage()),
+                                );
+                              },
                             ),
                           ),
                           Container(
@@ -103,7 +118,13 @@ class _DashboardPageState extends State<DashboardPage> {
                                 ),
                               ),
                               color: Color(0xff5260ff),
-                              onPressed: () {},
+                              onPressed: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => ScanPage()),
+                                );
+                              },
                             ),
                           )
                         ])),
