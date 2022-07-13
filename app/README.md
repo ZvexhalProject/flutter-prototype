@@ -1,6 +1,6 @@
 # app
 
-A new Flutter project.
+Flutter-Prototype iteration one - bachelor thesis
 
 ## Getting Started
 
