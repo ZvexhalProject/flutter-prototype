@@ -1,6 +1,6 @@
 # app
 
-Flutter-Prototype iteration one - bachelor thesis
+Flutter-Prototype (after final)iteration ONE - bachelor thesis
 
 ## Getting Started
 
